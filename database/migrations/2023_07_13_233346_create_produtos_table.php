@@ -27,6 +27,8 @@ class CreateProdutosTable extends Migration
 
             $table->float('precoVenda');
 
+            $table->timestamps();
+
         });
 
     }
